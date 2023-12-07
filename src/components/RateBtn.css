@@ -1,0 +1,8 @@
+.rate-btn {
+    cursor: pointer;
+    background-color: #262E38;
+    border: none;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
