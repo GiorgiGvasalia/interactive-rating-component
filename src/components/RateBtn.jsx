@@ -1,8 +1,9 @@
 import React from "react";
-import './RateBtn.css'
+import "./RateBtn.css";
 
-const RateBtn = ({value}) => {
-  return <button className="rate-btn">{value}</button>;
+const RateBtn = ({number}) => {
+
+  return <button className="rate-btn">{number}</button>
 };
 
 export default RateBtn;
