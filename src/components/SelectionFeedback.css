@@ -1,0 +1,24 @@
+.selection-label {
+  color: #fc7614;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 4px 19px;
+  border-radius: 22.5px;
+  background: #262e38;
+}
+
+.thankyou {
+  padding-top: 35px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: #969fad;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}

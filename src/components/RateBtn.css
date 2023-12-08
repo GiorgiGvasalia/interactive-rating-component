@@ -5,4 +5,20 @@
     border-radius: 50%;
     width: 51px;
     height: 51px;
+    color: #7C8798;
+}
+
+.rate-btn:hover {
+    background: #7C8798;
+    color: #fff;
+}
+
+.active {
+    background-color: #FC7614;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    color: #fff;
 }
