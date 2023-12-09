@@ -1,10 +1,10 @@
 import React from "react";
 import './SelectionFeedback.css'
 
-const SelectionFeedback = ({ value }) => {
+const SelectionFeedback = ({ rateValue }) => {
   return (
     <div className="selection-final">
-      <label className="selection-label">You selected {value} out of 5</label>
+      <label className="selection-label">You selected {rateValue} out of 5</label>
       <div>
         <p className="thankyou">Thank You</p>
         <p className="paragraph">

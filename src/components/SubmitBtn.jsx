@@ -5,7 +5,6 @@ const SubmitBtn = ({ onSubmitClick }) => {
 
    const handleSubmitClick = () => {
       onSubmitClick()
-      console.log("submit")
    }
 
   return (

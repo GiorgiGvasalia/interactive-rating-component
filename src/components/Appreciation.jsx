@@ -2,7 +2,7 @@ import React from "react";
 import SelectionFeedback from "./SelectionFeedback";
 import './Appreciation.css'
 
-const Appreciation = ({value}) => {
+const Appreciation = ({rateValue}) => {
   return (
     <div className="appreciation">
       <svg
@@ -118,7 +118,7 @@ const Appreciation = ({value}) => {
         />
       </svg>
       <div>
-        <SelectionFeedback value={value}/>
+        <SelectionFeedback rateValue={rateValue}/>
       </div>
     </div>
   );
